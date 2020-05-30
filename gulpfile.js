@@ -16,7 +16,7 @@ gulp.task('server', function () {
         'display: block; ',
         'padding: 6px 15px 3px;',
         'position: fixed;',
-        'font-size: 0.8em;',
+        'font-size: 10px;',
         'z-index: 9999;',
         'right: 0px;',
         'top: 0px;',
@@ -35,10 +35,7 @@ gulp.task('styles', function () {
       prefix: "",
       suffix: ".min",
     }))
-    .pipe(autoprefixer({
-      overrideBrowserslist: ['last 2 versions'],
-      cascade: false
-    }))
+    .pipe(autoprefixer())
     .pipe(cleanCSS({
       compatibility: 'ie8'
     }))
