@@ -1,14 +1,30 @@
 @import "base/variables";
 
-* {
+
+body {
+    font-size: 14px;
+    font-weight: 400;
     font-family: 'MuseoSansCyrl', sans-serif;
+    color: $text-color
 }
+
 
 .main__container {
     max-width: 950px;
     margin: 0 auto;
+    padding: 0 10px;
+}
+
+.title {
+    color: #0d0d0d;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 auto 70px;
+    width: 351px;
 }
 
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
+@import 'blocks/benefit';
+@import 'media';
