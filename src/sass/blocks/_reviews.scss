@@ -1,0 +1,42 @@
+.reviews {
+    &__title {
+        margin: 0;
+    }
+
+    &__box {
+        display: flex;
+        padding: 50px 0;
+        border-bottom: 1px solid #f6f6f6;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+
+    &__img {
+        width: 169px;
+        height: 169px;
+    }
+
+
+    &__item {
+        max-width: 659px;
+        margin-left: 62px;
+    }
+
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    &__info {
+        color: #646464;
+        font-weight: 300;
+    }
+
+    &__text {
+        font-size: 16px;
+    }
+
+}
+

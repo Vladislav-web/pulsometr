@@ -1,0 +1,213 @@
+@media (max-width: 1030px) {
+
+    .promo {
+        background: url(../img/bg/main-bg.jpg) (30% center/cover) no-repeat;
+
+        &__container {
+            padding-right: 20px;
+        }
+    }
+}
+
+@media (max-width: 884px) {
+
+    .carousel {
+        padding: 20px;
+
+        &__inner {
+            width: 70%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .reviews {
+        &__box {
+            flex-direction: column;
+        }
+        &__img {
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+            height: 90%;
+        }
+    }
+
+
+}
+
+@media (max-width: 783px) {
+
+    .title--left {
+        text-align: center;
+        margin: 0 auto 30px;
+    }
+
+    .consultation__desc {
+        text-align: center;
+    }
+}
+
+@media (max-width: 798px) {
+
+    .benefit {
+
+        &__container {
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+
+    .header {
+
+        &__official {
+            font-size: 10px;
+            padding: 0 10px;
+        }
+
+        &__phone {
+            font-size: 16px;
+        }
+
+    }
+
+    .header {
+        justify-content: center;
+        flex-wrap: wrap;
+
+        &__logo {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+}
+
+@media (max-width: 562px) {
+    .promo {
+
+        &__icons {
+            width: 100%;
+        }
+
+        &__icon {
+            margin: 0 0 0 20px;
+        }
+    }
+}
+
+@media (max-width: 545px) {
+
+    .benefit {
+        padding: 35px 0;
+    }
+
+    .title {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .promo {
+
+        &__header {
+            font-size: 30px;
+            margin: 0 auto;
+        }
+
+        &__subheader {
+            font-size: 20px;
+            margin: 0 auto;
+        }
+    }
+
+    .consultation {
+        padding: 50px 0;
+    }
+
+    .feed-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+
+
+    .promo {
+
+        // background: url(../img/bg/main-bg.jpg) (left 30% center/cover) no-repeat;
+        &__subheader {
+            font-size: 20px;
+            margin: 0 auto;
+            width: 274px;
+            text-align: center;
+        }
+
+        &__icons {
+            flex: center;
+        }
+
+        &__link {
+            margin: 0 auto;
+        }
+    }
+
+    .button--main {
+        margin: 70px auto 20px;
+    }
+}
+
+@media (max-width: 413px) {
+
+    .promo {
+        padding-bottom: 40px;
+
+        &__icons {
+            flex-direction: column;
+        }
+
+        &__header {
+            width: 220px;
+            margin: 0 auto 10px;
+            text-align: center;
+        }
+
+        &__icon {
+            margin-bottom: 20px;
+        }
+
+        &__wrapper {
+            margin-top: 50px;
+        }
+    }
+
+    .header {
+        &__logo {
+            margin-bottom: 20px;
+        }
+
+        &__official {
+            margin-bottom: 20px;
+        }
+    }
+
+    .benefit {
+
+        &__container {
+            justify-content: center;
+        }
+    }
+
+    .title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button--main {
+        margin-top: 0px;
+    }
+}
