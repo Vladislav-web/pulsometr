@@ -19,6 +19,12 @@
 
   &__icon {
     margin-bottom: 49px;
+    &--animated {
+        animation: heartbeat 1.5s ease infinite;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
   }
 
   &__title {

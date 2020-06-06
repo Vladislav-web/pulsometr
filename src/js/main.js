@@ -130,12 +130,12 @@ $(document).ready(function () {
         } else {
             $('.pageup').fadeOut();
         }
-
     });
+
 
     //! плавный scroll вверх
     $("a[href^='#']").click(function () {
-        const _href = $(this).attr("href");
+        _href = $(this).attr("href");
         $("html, body").animate({
             scrollTop: $(_href).offset().top + "px"
         });
