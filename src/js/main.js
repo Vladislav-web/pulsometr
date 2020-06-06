@@ -134,7 +134,7 @@ $(document).ready(function () {
 
 
     //! плавный scroll вверх
-    $("a[href^='#']").click(function () {
+    $("a[href='#up']").click(function () {
         _href = $(this).attr("href");
         $("html, body").animate({
             scrollTop: $(_href).offset().top + "px"
